@@ -30,3 +30,5 @@ while True:
     cv2.imshow('rastreamento', frame)
     if cv2.waitKey(1) & 0XFF == 27:
         break
+
+    
