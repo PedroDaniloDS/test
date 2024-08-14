@@ -2,7 +2,7 @@ import cv2
 
 rastreador = cv2.TrackerCSRT_create()
 
-video = cv2.VideoCapture("C:/Users/danil/OneDrive/Documentos/Machine Learning e Data Science com Python de A à Z-20240611T140920Z-001/Machine Learning e Data Science com Python de A à Z/Slides e outros recursos/rua.mp4")
+video = cv2.VideoCapture("C:/Users/danil/Downloads/elefante.mp4")
 ok, frame = video.read()
 
 bbox = cv2.selectROI(frame)
